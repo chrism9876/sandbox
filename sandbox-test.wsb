@@ -1,0 +1,14 @@
+<Configuration>
+<vGPU>Disable</vGPU>
+<Networking>enable</Networking>
+#<MappedFolders>
+#  <MappedFolder>
+#    <HostFolder>c:\SharedSandbox</HostFolder>
+#    <SandboxFolder>C:\SharedSandbox</SandboxFolder>
+#    <ReadOnly>true</ReadOnly>
+#  </MappedFolder>
+#  </MappedFolders>
+<LogonCommand>
+  <Command>"C:\SharedSandbox\ChromeStandaloneSetup64.exe" /silent /install</Command>
+</LogonCommand>
+</Configuration>
