@@ -9,6 +9,6 @@
 #  </MappedFolder>
 #  </MappedFolders>
 <LogonCommand>
-  <Command>iwr https://raw.githubusercontent.com/chrism9876/sandbox/refs/heads/main/script.ps1 | iex</Command>
+  <Command>powershell -c "iwr -UseBasicParsing https://raw.githubusercontent.com/chrism9876/sandbox/refs/heads/main/script.ps1 | iex"</Command>
 </LogonCommand>
 </Configuration>
